@@ -14,7 +14,7 @@ pipeline {
         docker { image 'ubuntu:latest' }
       }
       steps {
-        sh 'ls -a >> check.txt'
+        sh 'ls -a /'
       }
     }
   }
